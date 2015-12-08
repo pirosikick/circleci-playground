@@ -1,0 +1,10 @@
+mochine:
+    timezone:
+        Asia/Tokyo
+
+deplyment:
+    production:
+        branch: master
+        commands:
+            - export VALUE="HOGE"
+            - echo "Hello! ${HOGE}"
