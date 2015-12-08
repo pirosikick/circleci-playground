@@ -7,5 +7,5 @@ deployment:
         branch: master
         commands:
             - export VALUE=HOGE
-            - echo "Hello! ${HOGE}"
-            - VALUE=HOGE echo "Hello! ${HOGE}"
+            - echo "Hello! ${VALUE}"
+            - VALUE=HOGE echo "Hello! ${VALUE}"
