@@ -1,8 +1,8 @@
-mochine:
+machine:
     timezone:
         Asia/Tokyo
 
-deplyment:
+deployment:
     production:
         branch: master
         commands:
